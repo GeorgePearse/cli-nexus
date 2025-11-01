@@ -171,6 +171,10 @@ TBD (suggest MIT or Apache 2.0)
 - Inspired by the need for better UX around CLI-based AI coding tools
 - Built with modern web technologies for performance and developer experience
 
+## References
+
+- [Codexia](https://github.com/milisp/codexia) - A similar project exploring AI coding assistant interfaces
+
 ---
 
 **Status**: 🚧 Early Development - Not yet functional
