@@ -1,0 +1,127 @@
+# CLI Nexus
+
+A modern, web-based interface for interacting with coding CLIs like Claude Code, Gemini CLI, and other AI-powered development tools.
+
+## Vision
+
+CLI Nexus aims to provide a unified, intuitive graphical interface that bridges the power of command-line AI coding assistants with the accessibility of modern web applications. Instead of juggling multiple terminal windows and CLI tools, developers can interact with all their coding assistants through a single, cohesive interface.
+
+## Key Features (Planned)
+
+- **Unified Interface**: Single web-based UI to interact with multiple coding CLIs
+  - Claude Code
+  - Gemini CLI
+  - And more to come
+
+- **Session Management**:
+  - Manage multiple concurrent sessions with different CLIs
+  - Save and resume conversation history
+  - Switch between different projects seamlessly
+
+- **Enhanced Visualization**:
+  - Syntax-highlighted code snippets
+  - File tree visualization
+  - Diff viewers for code changes
+  - Rich markdown rendering
+
+- **Workflow Tools**:
+  - Side-by-side comparison of responses from different CLIs
+  - Export conversations and code snippets
+  - Custom prompts and templates library
+  - Project context management
+
+- **Developer Experience**:
+  - Keyboard shortcuts for power users
+  - Dark/light theme support
+  - Responsive design for various screen sizes
+  - Real-time streaming responses
+
+## Tech Stack
+
+- **Frontend Framework**: React 19 with TypeScript
+- **Build Tool**: Vite
+- **Toolchain**: oxc ecosystem (oxlint for ultra-fast linting)
+- **Styling**: TBD (considering Tailwind CSS, styled-components, or CSS modules)
+- **State Management**: TBD (React Context, Zustand, or Jotai)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or pnpm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/GeorgePearse/cli-nexus.git
+cd cli-nexus
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+### Available Scripts
+
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run lint` - Run oxlint for code quality checks
+- `npm run lint:fix` - Auto-fix linting issues
+- `npm run preview` - Preview production build locally
+
+## Project Structure
+
+```
+cli-nexus/
+├── src/
+│   ├── components/     # React components
+│   ├── hooks/          # Custom React hooks
+│   ├── services/       # CLI integration services
+│   ├── types/          # TypeScript type definitions
+│   ├── utils/          # Utility functions
+│   └── App.tsx         # Main application component
+├── public/             # Static assets
+└── oxlintrc.json       # oxc linter configuration
+```
+
+## Contributing
+
+Contributions are welcome! This project is in early stages, and we're open to ideas and improvements.
+
+### Development Guidelines
+
+1. Follow the existing code style (enforced by oxlint)
+2. Write meaningful commit messages
+3. Add tests for new features (testing framework TBD)
+4. Update documentation as needed
+
+### Roadmap
+
+- [ ] Basic UI layout and navigation
+- [ ] CLI process management and communication
+- [ ] Session persistence
+- [ ] Multi-CLI support
+- [ ] Syntax highlighting and code display
+- [ ] File tree visualization
+- [ ] Settings and configuration panel
+- [ ] Keyboard shortcuts
+- [ ] Export functionality
+
+## License
+
+TBD (suggest MIT or Apache 2.0)
+
+## Acknowledgments
+
+- Inspired by the need for better UX around CLI-based AI coding tools
+- Built with modern web technologies for performance and developer experience
+
+---
+
+**Status**: 🚧 Early Development - Not yet functional
+
+For questions or suggestions, please open an issue on GitHub.

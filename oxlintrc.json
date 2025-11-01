@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "typescript": "all",
+    "react": "all",
+    "jsx-a11y": "all",
+    "unicorn": "all"
+  },
+  "plugins": [],
+  "env": {
+    "browser": true,
+    "es2021": true
+  }
+}
