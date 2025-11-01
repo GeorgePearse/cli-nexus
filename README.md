@@ -173,7 +173,13 @@ TBD (suggest MIT or Apache 2.0)
 
 ## References
 
-- [Codexia](https://github.com/milisp/codexia) - A similar project exploring AI coding assistant interfaces
+Similar projects and inspiration:
+
+- [Codexia](https://github.com/milisp/codexia) - A powerful GUI/IDE and Toolkit for Codex CLI with fork chat, FileTree, and prompt notepad
+- [happy](https://github.com/slopus/happy) - Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured
+- [CodexFlow](https://github.com/lulu-sk/CodexFlow) - Enhanced GUI tool designed for Codex CLI, focused on improving conversation management and interaction
+- [Codex-webui](https://github.com/harryneopotter/Codex-webui) - A minimal webui to run Codex-CLI locally with a UI, session resume and persistent memory (Un-official)
+- [AionUi](https://github.com/iOfficeAI/AionUi) - Free, local, open-source GUI app for Gemini CLI — Better Chat UI, File Management, AI image editing, multi-agent support, multi-LLMs
 
 ---
 
